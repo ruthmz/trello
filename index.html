@@ -7,29 +7,56 @@
  <title>Trello</title>
 
  <!-- Hojas de estilo para este proyecto  -->
-
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link href="css/main.css" rel="stylesheet"> 
 </head>
 <body>
-  <nav>  </nav>
+  <header >
+    <div class="navbar" >
+      <span class="box"><a href=""><i class="fa fa-trello" aria-hidden="true"></i> <p>Tableros</p></a></span>
+      <span class="box" ><a href=""><input type="text"> <i class="fa fa-search fa-flip-horizontal" aria-hidden="true"></i></a></span>
+    </div>
+    <div class="logo" >
+    <a href=""><img src="assets/imag/header-logo.png" alt="logo"></a>
+    </div>
+
+    <div class="menu">        
+      <span class="box"><a href=""><i class="fa fa-plus" aria-hidden="true"></a></i></span>
+      <span class="box"><a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a></span>
+      <span class="box"><a href=""><i class="fa fa-bell-o" aria-hidden="true"></i></a></span>
+      <div class="circle"><p>RM</p></div>
+    </div>
+  </header>
+  <section>
+    <span><a href=""><strong>Reto de Código</strong> </a></span>
+    <span><a href=""><i class="fa fa-star-o" aria-hidden="true"></i></a></span>
+    <span class="divider"></span>    
+    <span><p>Vida Privada</p></span>
+    <span class="divider"></span>        
+    <span><a href=""><i class="fa fa-lock" aria-hidden="true"></i><p>Privado</p></a></span>
+    <span class="right"><p>Mostrar Menú</p></span>
+    
+  </section>
   <section>
     <div id="all">
-      <div  id="one" class="supercontent">
-        <div id="firstadd" class="" contentEditable="true">Añadir una lista
+      <div  id="one" class="">
+        <div id="firstadd" class="shadow" contentEditable="true">
+         <p> Añadir una lista...</p>
         </div>
       </div>
     
-      <div id="two" class="supercontent">
+      <div id="two" class="position-two">
         <div id="listAdd">
         </div>
-        <div id="textadd-two"  class="" contentEditable="true">
+        <div id="textadd-two"  class="" contentEditable="true">Añadir una lista
         </div>
         <input type="button" value="Guardar" id="saveTask" class="" >
       </div>
     
-      <div id="three" class="supercontent">
+      <div id="three" class="position-three">
         <div id="container">
-          <div id="textadd" class="" contentEditable="true">
+          <div id="textadd" class="bigbox" contentEditable="true"> 
+            Añadir una tarjeta
           </div>
           <input type="button" value="Añadir" id="addCard" class="" >
         </div>
