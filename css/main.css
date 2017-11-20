@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#textadd {
+    width: 300px;
+    border: 1px solid red;
+    cursor: text;
+}
+#textadd-two{
+    width: 300px;
+    border: 1px solid red;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+input {
+    border-radius: 5px;
+    background-color: greenyellow;
+}
